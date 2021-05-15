@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1 id="title">Electronic survey <span>"Chile"<span></h1>
+        <p id="description">Survey to know what style of electronic music you like </p>
+      
+        <form id="survey-form">
+          <div id="person-form">
+      
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text" name="name" id="name" placeholder="Enter your name" required
+            />
+            <br>
+            <label id="email-label" for="email">Email</label>
+            <input 
+              type="email" name="email" id="email" placeholder="Enter your email" required
+            />
+            <br>
+            <label id="number-label">Number</label>
+            <input 
+              type="number" name="number" id="number" min="900000000" max="999999999" placeholder="Enter your number" required/>
+      
+          </div>
+            <p>What style of electronic music do you like?</p>
+            <select id="dropdown" name="role" required>
+        <option disabled selected value>Select your answer</option>
+              <option value="dubstep">Dubstep</option>
+              <option value="house">House</option>
+              <option value="post-disco">Post-disco</option>
+              <option value="edm">EDM</option>
+              <option value="other">Other</option>
+          </select>
+              </div>
+              <div>
+                <p>Have you ever seen an electronic music festival?</p>
+              <label>
+              <input
+                name="user-answer"
+                value="Yes"
+                type="radio"
+                class="input-radio"
+                checked
+              />Yes</label>
+            <label>
+              <input
+                name="user-answer"
+                value="maybe"
+                type="radio"
+                class="input-radio"
+              />Maybe</label>
+      
+            <label>
+              <input
+                name="user-answer"
+                value="not-sure"
+                type="radio"
+                class="input-radio"
+              />Not sure</label>
+              </div>
+        <p>What electronic music artist have you ever listened to?</p>
+            <label
+              ><input
+                name="prefer"
+                value="skrillex"
+                type="checkbox"
+                class="input-checkbox"
+              />Skrillex</label
+            >
+        <label
+              ><input
+                name="prefer"
+                value="martin-garrix"
+                type="checkbox"
+                class="input-checkbox"
+              />Martin Garrix</label
+            >
+        <label
+              ><input
+                name="prefer"
+                value="david-guetta"
+                type="checkbox"
+                class="input-checkbox"
+              />David Guetta</label
+            >
+        <label
+              ><input
+                name="prefer"
+                value="diplo"
+                type="checkbox"
+                class="input-checkbox"
+              />Diplo</label
+            >
+        <label
+              ><input
+                name="prefer"
+                value="avicii"
+                type="checkbox"
+                class="input-checkbox"
+              />Avicii</label
+            >
+        <label
+              ><input
+                name="prefer"
+                value="others"
+                type="checkbox"
+                class="input-checkbox"
+              />Others</label
+            >
+        <p id="p">Any comments or suggestions?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your comment here..."
+            ></textarea>
+        <br>
+          <button href="" type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+      
+        </form>
+      </main>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>

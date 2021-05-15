@@ -1,0 +1,140 @@
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+::placeholder { color: #596AE5 ; }
+main{
+  text-align: center;
+  color: #AFADAC;
+  font-family: monospace;
+  font-size: 15px;
+  margin: 0;
+}
+main::before{
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color: dark-blue;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://www.mondosonoro.com/wp-content/uploads/2020/07/Tomorrowland.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1 span{
+  display: block;
+  font-size: 40px;
+}
+@media(max-width: 800px){
+  h1 span{
+
+  }
+}
+
+#survey-form{
+  width:   60%;
+  background-color: rgba(27, 27, 50, 0.8);
+  border: 2px solid #186DF0;
+  margin: 0;
+  padding: auto;
+  position: relative;
+  left: 20%;
+
+}
+@media (max-width: 1800px){
+  #survey-form{
+  width:  70%;
+  position: relative;
+  left: 15em;
+  }
+}
+@media (max-width: 1100px){
+  #survey-form{
+  width:  80%;
+  position: relative;
+  left: 5em;
+  }
+}
+
+@media(max-width: 850px){
+  #survey-form{
+   width: 100%;
+   postion: relative;
+   left: 0em;
+  }
+}
+label{
+  color: #FFFFFF;
+}
+#name{
+  display: block;
+  border: solid 5px transparent;
+  border-image: linear-gradient(135deg, #050B39 0%,#455BFD  100%)1;
+  width: 15em;
+  caret-color: red;
+  margin: 4px;
+  position: relative;
+  left: 40%;
+
+}
+#email{
+  display: block;
+  border: solid 5px transparent;
+  border-image: linear-gradient(135deg, #050B39 0%,#455BFD  100%)1;
+  width: 15em;
+  caret-color: red;
+  margin: 4px;
+  position: relative;
+  left: 40%;
+}
+#number{
+  display: block;
+  border: solid 5px transparent;
+  border-image: linear-gradient(135deg, #050B39 0%,#455BFD  100%)1;
+  width: 15em;
+  caret-color: red;
+  margin: 4px;
+  position: relative;
+  left: 40%;
+}
+#survey-form p{
+  color: #FFFFFF;
+}
+#dropdown{
+  width: 15em;
+  color: #596AE5;
+  margin: 5px;
+}
+.input-radio{
+ margin-left: 50px;
+}
+.input-checkbox{
+  margin-left: 30px;
+}
+#p{
+  border-top: solid #596AE5 2px;
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+#comments{
+  width: 20em;
+  margin: 5px;
+}
+#submit{
+  width: 5em;
+  margin: 5px;
+  padding: 5px;
+  border-image: linear-gradient(135deg, #050B39 0%,#455BFD  100%)1;
+  color: #596AE5;
+}
