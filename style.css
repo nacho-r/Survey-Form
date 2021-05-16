@@ -95,12 +95,7 @@ label{
     left: 25%;
   }
 }
-@media only screen 
-   and (min-width : 400px) {
-  #name{
-    left: 35%;
-  }
-}
+
 @media only screen 
    and (min-width : 768px) {
    #name{
@@ -142,12 +137,7 @@ label{
     left: 25%;
   }
 }
-@media only screen 
-   and (min-width : 400px) {
-  #email{
-    left: 35%;
-  }
-}
+
 @media only screen 
    and (min-width : 768px) {
    #email{
@@ -193,12 +183,7 @@ label{
     left: 25%;
   }
 }
-@media only screen 
-   and (min-width : 400px) {
-  #number{
-    left: 35%;
-  }
-}
+
 @media only screen 
    and (min-width : 768px) {
    #number{
