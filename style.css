@@ -9,7 +9,7 @@ main{
   text-align: center;
   color: #AFADAC;
   font-family: monospace;
-  font-size: 15px;
+  font-size: 14px;
   margin: 0;
 }
 main::before{
@@ -35,11 +35,7 @@ h1 span{
   display: block;
   font-size: 40px;
 }
-@media(max-width: 800px){
-  h1 span{
 
-  }
-}
 
 #survey-form{
   width:   60%;
@@ -69,7 +65,7 @@ h1 span{
 @media(max-width: 850px){
   #survey-form{
    width: 100%;
-   postion: relative;
+   position: relative;
    left: 0em;
   }
 }
@@ -87,6 +83,43 @@ label{
   left: 40%;
 
 }
+@media only screen 
+   and (min-width : 200px) {
+   #name{
+     left: 15%;
+   }
+}
+@media only screen 
+   and (min-width : 320px) {
+  #name{
+    left: 25%;
+  }
+}
+@media only screen 
+   and (min-width : 400px) {
+  #name{
+    left: 35%;
+  }
+}
+@media only screen 
+   and (min-width : 768px) {
+   #name{
+     left: 40%;
+   }
+}
+@media only screen 
+   and (min-width : 1200px) {
+   #name{
+     left: 40%;
+   }
+}
+@media only screen and (min-width : 1600px) {
+  #name{
+  left: 42%;
+  }
+}
+
+
 #email{
   display: block;
   border: solid 5px transparent;
@@ -96,6 +129,47 @@ label{
   margin: 4px;
   position: relative;
   left: 40%;
+}
+@media only screen 
+   and (min-width : 200px) {
+   #email{
+     left: 15%;
+   }
+}
+@media only screen 
+   and (min-width : 320px) {
+  #email{
+    left: 25%;
+  }
+}
+@media only screen 
+   and (min-width : 400px) {
+  #email{
+    left: 35%;
+  }
+}
+@media only screen 
+   and (min-width : 768px) {
+   #email{
+     left: 40%;
+   }
+}
+@media only screen 
+   and (min-width : 1200px) {
+   #email{
+     left: 40%;
+   }
+}
+@media only screen and (min-width : 1600px) {
+  #email{
+  left: 42%;
+  }
+}
+@media only screen 
+   and (min-width : 768px) {
+   #email{
+     left: 40%;
+   }
 }
 #number{
   display: block;
@@ -107,6 +181,43 @@ label{
   position: relative;
   left: 40%;
 }
+@media only screen 
+   and (min-width : 200px) {
+   #number{
+     left: 15%;
+   }
+}
+@media only screen 
+   and (min-width : 320px) {
+  #number{
+    left: 25%;
+  }
+}
+@media only screen 
+   and (min-width : 400px) {
+  #number{
+    left: 35%;
+  }
+}
+@media only screen 
+   and (min-width : 768px) {
+   #number{
+     left: 40%;
+   }
+}
+@media only screen 
+   and (min-width : 1200px) {
+   #number{
+     left: 40%;
+   }
+}
+@media only screen and (min-width : 1600px) {
+  #number{
+  left: 42%;
+  }
+}
+
+
 #survey-form p{
   color: #FFFFFF;
 }
